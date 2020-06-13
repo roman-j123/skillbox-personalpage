@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Skillbox, вёрстка, html, css">
+    <meta name="description" content="Дмитрий Алексеев. Дипломный проект">
+    <link rel="preload" href="fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script defer src="scr/jquery-3.5.1.min.js"></script>
+    <script defer src="scr/swiper.min.js"></script>
+    <script defer src="scr/main.js"></script>
+    <title>Дмитрий Алексеев</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <nav class="header__main-navigation main-navigation">
+                    <a href="#" class="main-navigation__mobile" aria-label="Открыть навигацию">
+                        <span class="visually-hidden">Кнопка мобильной навигации</span>
+                    </a>
+                    <ul class="main-navigation__navigation-list navigation-list">
+                        <li class="navigation-list__item">
+                            <a href="#skills" title="Услуги">Услуги</a>
+                        </li>
+                        <li class="navigation-list__item">
+                            <a href="#portfolio" title="Портфолио">Портфолио</a>
+                        </li>
+                        <li class="navigation-list__item">
+                            <a href="#price" title="Стоимость">Стоимость</a>
+                        </li>
+                        <li class="navigation-list__item navigation-list__item--close">
+                            <a href="#">Закрыть</a>
+                        </li>
+                    </ul>
+                </nav>
+                <aside class="header__side-block side-block">
+                    <a href="tel:+74999955577" class="side-block__phone-link" title="Позвонить по номеру +74999955577">+7 (499) 995-55-77</a>
+                    <button class="btn side-block__phone-btn">Заказать звонок</button>
+                    <button class="btn side-block__phone-btn side-block__phone-btn--mobile" title="Заказать обратный звонок" aria-label="Заказать обратный звонок">
+                        <span class="visually-hidden">Заказать звонок</span>
+                    </button>
+                </aside>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="welcome">
+            <span class="el-1-1">{ }</span>
+            <span class="el-1-2">&lt;div&gt;</span>
+            <span class="el-1-3">#</span>
+            <span class="el-1-4">&lt;div&gt;</span>
+            <span class="el-1-5">&lt;/&gt;</span>
+            <span class="el-1-6-tab">&lt;/&gt;</span>
+            <div class="welcome__container">
+                <div class="welcome__text-block welcome-text-block">
+                    <h1 class="welcome-text-block__header">Дмитрий Алексеев</h1>
+                    <p class="welcome-text-block__desc">Frontend-разработчик и веб-верстальщик</p>
+                    <a href="#" class="btn btn--main" title="Узнать больше обо мне">Узнать больше</a>
+                </div>
+                <div class="welcome__photo">
+                    <img src="img/photo.png" alt="Моя фотография">
+                </div>
+            </div>
+        </div>
+        <section class="skills" id="skills">
+            <div class="container">
+                <div class="skills__container">
+                    <h2 class="container__header">Что я делаю</h2>
+                    <ul class="skills__list list">
+                        <li class="list__item">
+                            <figure>
+                                <img src="img/skill-verstka.png" alt="Вёрстка сайтов">
+                                <figcaption>Вёрстка лендинг–страници <br>и сайтов любой сложности</figcaption>
+                            </figure>
+                        </li>
+                        <li class="list__item">
+                            <figure>
+                                <img src="img/skill-adapt.png" alt="Адаптивная вёрстка">
+                                <figcaption>Адаптивная вёрстка под все браузеры и устройства</figcaption>
+                            </figure>
+                        </li>
+                        <li class="list__item">
+                            <figure>
+                                <img src="img/skill-front.png" alt="Frontend разработка">
+                                <figcaption>Frontend – разработка <br>и программирование</figcaption>
+                            </figure>
+                        </li>
+                        <li class="list__item">
+                            <figure>
+                                <img src="img/skill-fix.png" alt="Исправление и доработка">
+                                <figcaption>Исправление и доработка существующей вёрстки</figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn--main" title="Узнать стоимость моих работ">Узнать стоимость</a>
+                </div>
+            </div>
+        </section>
+        <section class="works" id="portfolio">
+                <div class="works__container">
+                    <h2 class="container__header">Примеры моих работ</h2>
+                    <div class="swiper-button-next arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="24" viewBox="0 0 14 24">
+                            <image id="right-arrow" width="14" height="24" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAYCAYAAADKx8xXAAABRUlEQVQ4jZXTP0jVURjG8c/1Gm5O4pLhoJPi0OIQDSFCICi0CA7qouJ03azxtnU3/yxRQ1RDIISgkyDioItr6OQi5pJNQkOQfzjx/iDs3uvxWQ/f85z3Oc9bqq1+reIxZnAuUy14hDHsous+4Bw+ow976M0FLzGNFXRjHwM5YNI1FvAaneH8JAcsVI0L2rGN57mgeHJ6ehs2MZ4LJn3CC1zhC2ZzwaQNjOAX3mExF0zawTB+ooY3KOWASQd4hjO8xFuUWzPApEM8jaRTYf7kONZVLtgfpeiJoCo54GAswMMIaD7V9C5wKObqiGBeRT01Cyet2hoeRCDv/z1s5DiF9TifuA01Aiv4iN8YDdf/VG87lnERjdlqNEcxY6rRUrj9COhbk/n/gmV8wCROAjpuBhUzpg9N0FHU6k6oAE9jhVKRv+dAcAP6Ez5LMWeV6QAAAABJRU5ErkJggg=="/>
+                        </svg>
+                    </div>
+                    <div class="swiper-button-prev arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="24" viewBox="0 0 14 24">
+                            <image id="left-arrow" width="14" height="24" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAYCAYAAADKx8xXAAABSElEQVQ4jZXUPyjncRzH8cfPzyKrs1AGJrIajuGSUkRZlAETmdzGbdwkNj9lwHIopaQMShkM3GC54bJRJyzXTcqg64c++vzqun5/Pr/X+v4+P5/X+/1+fb6Z5bUDVegDtvCjtgqoGSdox59UsA2naMEOpmsSoE5cRCiHSeQrgR9xjkZ8xWe8hkI5q/04RF0Ecv8WS4Gj2EU2Wtv+/4NiVqewhxeMFIOKgXPYwBMGcFSqj4LVDJYwH3aEQVyWggpg6GM97AYPcShX5aACmIvQDfrwqxJUrMdkBXA2DqQ1Lrsj9cY8ZrCMJpyhK9VqiNGXONWGGOjeanpciYOqxzGGU8GgTYzFWsjqRCoYtI8hPONbHGASGBRee9jrI1axmAoGfUcPfmMhHhDimRSAn+jGbbQcrGdT/znX8eZgfxx/q4ncPT69PzXu3gDbYz5tl7t7ygAAAABJRU5ErkJggg=="/>
+                        </svg>
+                    </div>
+                    <div class="swiper-container works__works-list work-list">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide works-list__item">
+                                <figure>
+                                    <img src="img/work-1.jpg" alt="Сайт психолога">
+                                    <figcaption>Сайт психолога Веры Антоновой</figcaption>
+                                </figure>
+                            </div>
+                            <div class="swiper-slide works-list__item">
+                                <figure>
+                                    <img src="img/work-2.jpg" alt="Cайт детской одежды">
+                                    <figcaption>Сайт магазина детской одежды</figcaption>
+                                </figure>
+                            </div>
+                            <div class="swiper-slide works-list__item">
+                                <figure>
+                                    <img src="img/work-3.jpg" alt="Сайт Рыболов">
+                                    <figcaption>Сайт магазина «Рыболов»</figcaption>
+                                </figure>
+                            </div>
+                            <div class="swiper-slide works-list__item">
+                                <figure>
+                                    <img src="img/work-1.jpg" alt="Сайт психолога">
+                                    <figcaption>Сайт психолога Веры Антоновой</figcaption>
+                                </figure>
+                            </div>
+                            <div class="swiper-slide works-list__item">
+                                <figure>
+                                    <img src="img/work-2.jpg" alt="Cайт детской одежды">
+                                    <figcaption>Сайт магазина детской одежды</figcaption>
+                                </figure>
+                            </div>
+                            <div class="swiper-slide works-list__item">
+                                <figure>
+                                    <img src="img/work-3.jpg" alt="Сайт Рыболов">
+                                    <figcaption>Сайт магазина «Рыболов»</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <a href="#" class="btn btn--main" title="Заказать у меня проект">Заказать проект</a>
+                </div>
+        </section>
+        <section class="price" id="price">
+            <span class="el-2-1">{ }</span>
+            <span class="el-2-2">&lt;/&gt;</span>
+            <span class="el-2-3">#</span>
+            <span class="el-2-4">&lt;div&gt;</span>
+            <span class="el-2-5">{ }</span>
+            <h2 class="visually-hidden">Стоимость моих работ</h2>
+            <div class="price__container">
+                <h3 class="price__header price-help">Адаптивная вёрстка под все устройства и&nbsp;браузеры от 1000 рублей всего за&nbsp;4&nbsp;часа.*</h3>
+                <div class="price-help__container">
+                    <span class="price-help__star">*</span>
+                    <p class="price-help__text">Срок и стоимость могут отличаться от заявленных и рассчитываются  индивидуально, в зависимости от&nbsp;сложности задач.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__items">
+                <div class="footer__block footer-navigation">
+                    <ul class="footer-navigation__list f-navigation-list">
+                        <li class="f-navigation-list__item">
+                            <a href="#" title="Услуги">Услуги</a>
+                        </li>
+                        <li class="f-navigation-list__item">
+                            <a href="#" title="Портфолио">Портфолио</a>
+                        </li>
+                        <li class="f-navigation-list__item">
+                            <a href="#" title="Стоимость">Стоимость</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__block footer-contacts">
+                    <ul class="footer-contacts__list f-contacts-list">
+                        <li class="f-contacts-list__item">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+                                <image id="call-answer" data-name="call-answer" width="18" height="18" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABZklEQVQ4jZWUvUtDMRTFf3mJXygUB7eCm6gV3aQu4sdai6PgpKA4CcVFcBWcHQpuTlI3sSCCYnFQBGdB8E/QSSy0mPRFXkmxPF7b9w4cSM4l594bbiJ+B08BNoAz4B3IA18khIfwswj/AuGn3LqC8McQPkmo8PyjpuE/ZoAKsJKkMoXXWI7QA7MysBDbyMrGcIfYVJJbUshGFRgJ6T6wl9DIvLr7aMcBcJnEyLPSlKw0hLgYoXWlqKcPh9z8jIeSrAPX8VtTpgbsRxw6B7LAR6zWUAaUKaNM0a1bHEWZB5SZCOmR9KzUOBas1Pdt+4BpK/WLlTrfpq1ZqT+t1M9W6rGWLmqZ3fYKU8AdMB9R/RVwCxSBPqe9tV6AqM1thw90M4tC00xZpcOxb2AVKAG5GEbBc7pRDNSjgsG0B99JATgB+nuYZUQ1t9Qr46QzC+aqE3bEz+ZsjOqbmAa2XNsZwAJPwDHw+AdAC6vN7wlimwAAAABJRU5ErkJggg=="/>
+                            </svg>
+                            <a href="tel:+74999955577" class="call-answer">+7 (499) 995-77-55</a>
+                        </li>
+                        <li class="f-contacts-list__item">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="15" viewBox="0 0 23 15">
+                                <image id="envelope" data-name="envelope" width="23" height="15" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAPCAYAAAAPr1RWAAABUklEQVQ4jbXRu2tUURTF4e/O7OADhIGASApfhaCCxH/ALqmFWFr4AAUVQhpRBEVTiNVgYSE2Fim10kaxEWzFxkKLYGMRCzGk8IY5J165cEeCJFHCnQUbDmev9WMdTjHY+fAcHmCv9rSEG8Vgd38Fe1oED1WGztryiOBfo+rmi3iBHS2CE66Fbn6LU3iKoy2AP+EC3ndEfidyKfIJkWdF/iGybcyyyHMNZ6XmFqsTtyqs4QluN+d5XEb3P5rW/sdNtta9YbZY3X+9WmesP/cuHuEI+pjaAvwGc/iMq7iD3nDZEcm66YnUF+mjSAdFmhbptEiLf/kWm/spkQ40/n6T/+OLaixt1Khu/RKvMYtjmMFJfMBzHMYrTG/2rKI8fqnabNko4xkW8AWHcBZnEFsFi5+T5/8F37bC2GBUbFH1vpfYNQJ2Gb/Gv13BfexrEbyEm78BHcR6GDEfwUYAAAAASUVORK5CYII="/>
+                            </svg>                          
+                            <a href="mailto:dmitry@alekseev.com" class="envelope">dmitry@alekseev.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__block footer-social">
+                    <div class="footer-social__list">
+                        <button class="btn btn--footer">Заказать звонок</button>
+                        <ul class="footer-social__social-network social-network">
+                            <li class="social-network__item">
+                                <a href="https://vk.com" class="social-link vk" aria-label="VK">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="21" viewBox="0 0 35 21">
+                                        <image id="vk_1_" data-name="vk (1)" width="35" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAVCAYAAADM+lfpAAACLElEQVRIibXWTYhOURgH8N+MyXc+i0JioQjRyEc2JsqKWCrKgiSSSEQs5CNETU1EopQlGwuRZDnGAilFCQsfC0YUSohOnavrnXvPva/Mv97ee57zf57zv/ec53lOy/Guq5rEIixES4Hbc1xrNmCGNpzF9IK5V9iO3pytHd0VMZfjVoF9HM5hdIlfTxCzGuNLCO+wIze+j1m4gUklPjNLxOyOa5VhQSvOJAgbMaLB9hhdCZ8iDMeGCs6VIOY0viSCbCmwv2xSzHqMSsz/wJHWeCbOJ4i7MLLB1lvCLcIQ7KvgHMLT1jg4ga8lxLE40GD72YSYcOYmJObv4Wh4yMS8rTgHIavm5saDagqZhv2J+Y9YE7fpj5iAk/hU4hSy7gIGxvGYxAJt8X8wLsdtKkNIkBfZXF7MexxMOLbHmjQASxO8jsi5FNI1wQuJ81fFbazA4a0eYUYiyGtMTMyLnz+VPaE8zMO3vLG1gRT2blvFQlVCVAgJ6GwUUiQm4HZFIfwf6CiKUSQmYA+e9aOYtVk61xHzGevwvR8F7cWpfPcvExPQg83/uNCHeIirsDNf31JiAi7GN2gGoc/NxlTcqeG3NWsXVWICjmFTViVr4CbexC+zMpb7KhwOtauOGLGRzseDGtz8wQ9faQWeVPiEc9NZV0zAw1ioVsW371MnIkJByyNc0JbhbkX8yVkfqYtf8Y4bfkMxB1PiBSz0onAHvl4QLGzbYiyJzXNYHwbdvwErR2FMYpaDTAAAAABJRU5ErkJggg=="/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-network__item">
+                                <a href="https://facebook.com" class="social-link fb" aria-label="Facebook">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="28" viewBox="0 0 16 28">
+                                        <image id="facebook-logo_1_" data-name="facebook-logo (1)" width="16" height="28" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAcCAYAAABoMT8aAAAA5klEQVQ4je2STwqBURTFf/5ESiHCSBjZgczsgYGBDcjUCkxkoJQyNDOUERuwAWVmZgMiJgzQq2/w+rz7+opSX07dwT2dc967txsYThZYkAS6QAOoADGXdBS2mGvAEshZNBkpoASsgJTtewpBgR94MUsBcaDpxQw8TSNUgZBgmAM74Ob0G1NAVjCvgbabNI0QFQIOJlJaogn3TwOMUAF94KTVVNB2XDpVLbXEApDw8FjEKR35r4zw2wC1gy1Q1zh1ymmD9gIctf4B7NUPxkBRq57w2MylK6vr9MES/wG+DTgL2usbA7wACGcgw68lb8MAAAAASUVORK5CYII="/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-network__item">
+                                <a href="https://twitter.com" class="social-link twitter" aria-label="Twitter">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29" height="25" viewBox="0 0 29 25">
+                                        <image id="twitter-logo-silhouette" width="29" height="25" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAZCAYAAADNAiUZAAACGUlEQVRIibXWS6jNURTH8c/lhIhcrxQmSiQDDETCxOQykDwyUWaSFErUnchEV0ZIEpnJOwOKQgYeUZSuwR248uhKIeV1y7td66/j3/8c53+d86t/+3T22vu71157r7Xbug6e1yRNwCxU0IMXtaYdFG0yHD5A9gxcxmtcx1U8x10srLJLi9qD9gy6BicxuCRwEe5jGdpyffNxEwei7cNEvM+gK7ECpzCkQeBonMPIOjZpB7dgCe6hEx0ZdGq0q2NVUxqAbo4ta0Q/MAxPMTSD9lcNXIBH2FgV8yJ1NAgUYZuDrbiYTfowZ9SOI+jGhlhlXpNKQEX4jqvy5Bh+FRjOxAm8xWlswrw4EB9KQm9lPyrRJo+6sKvGgBFYG99A9Tkbl3l6JY58z39MWk9pp77lPU2r2NkioLwzmadnWghMulMEPYvbLYReKoL+jKz0oAXAvlqeJr2JBL0NvU2EHo6M9EeVnMF+rMeoJgHf4VD+z3ya2xdXJ18xBqrOoiSSh76M2H5qAvAajhZ1FCX0G5gdaa+/oL8RpSK+rkZqrVlFemPQ9IJi8C+l07o04lmoWtBUQfbiMeaWAHbHDXhSzyid3uUYjzGYjMVR++rV0iKlq7EDX/5lWIkYpuK6HeNKgkSx6CwThuRNOixpK9OWrop3UjrFtZSqRcowuzEtXhCl4l6dHL7iQnxJ6f2TtntsPNY+4hWe4XsZyF/Cb9JJY76AdXMeAAAAAElFTkSuQmCC"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-network__item">
+                                <a href="https://instagram.com" class="social-link inst" aria-label="Instagram">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+                                        <image id="instagram-social-network-logo-of-photo-camera" width="25" height="25" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAB4ElEQVRIibXWS6hOURQH8N/li5A88qhPkiIDAwMZmRgoI2aYyjU08CjuhBThGpjcieIqKZRMFINLMWFgJBm4GAmJm0efR0S0a321O51z7rl1/GvXWmvvvf5rnb3W3mdgeOTGDJzGHszVHnq4gKEOhrGvRed9pID3YyCRDLbg8CfG8Tf05VgY8mCnpU+0DWOZngheYU7yP60FgoTnBf0jJvpKWyS1aIukU2crm6zCLzzEa3SxETNj7UlczQ5+HZZNleQKDuJdZlsU5b8b22M0TrOIixVlPhH279hb5yA/k0+4hMuZ7QsOTBLEIbzP9Gvh51sZSarrXTiV2caCqA4/cCubPxt+akt4aSa/nYSgjzeZ3C1OlpF8zeSVDUlWZPLnJiQv8DvkzYXMyjA/rhVRwuNNSNIZ3Al5Ns5jegVB2n8O80J/UCjzSpKEY5m8FXextrBmDW5jZ2Y7WhVJGR4VNmzC0/iU9/EsxpZszRncK3NW14wn8AfHs2BWxShbW5pFXSbiENOdtB7Xox9ypIfqJjbgSHZvTSmTPh5jB2ZhdTxI6XZ4mXd1HXKSblRJVYenTJ40cRqBLMgz6cUTvDg6/ENDR3VYEpkn9BLJaPa3kvoi7942MJpIDseh/Z//Lob+AShcXO7BB7RAAAAAAElFTkSuQmCC"/>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright-block">
+        <p>&copy; Дмитрий Алексеев, 2016 – 2018</p>
+    </div>
+    <div class="modal">
+        <div class="modal__wrapper">
+            <div class="modal__content">
+                <div class="modal__header">
+                    <h2 class="header__title">Заказать консультацию</h2>
+                    <button type="button" class="header__close" title="Закрыть окно">
+                        <span class="visually-hidden">Закрыть окно</span>
+                    </button>
+                    <p class="header__text">Заполните поля ниже, чтобы я связался с вами для консультации</p>
+                </div>
+                <form action="https://echo.htmlacademy.ru" class="modal__form">
+                    <fieldset class="form__set">
+                        <legend class="form__legend">Имя и Фамилия</legend>
+                        <input type="text" class="form__input" name="FirstName" placeholder="Имя" required>
+                        <input type="text" class="form__input" name="LastdName" placeholder="Фамилия">
+                    </fieldset>
+                    <fieldset class="form__set">
+                        <legend class="form__legend">Почта и номер телефона</legend>
+                        <input type="email" class="form__input" name="userEmail" id="userEmail" placeholder="Электронная почта" required>
+                        <input type="tel" class="form__input" name="userPhone" placeholder="Номер телефона" required>
+                    </fieldset>
+                    <fieldset class="form__set">
+                        <legend class="form__legend">Сообщение</legend>
+                        <textarea class="form__textarea" name="userMessage" id="userMessage" maxlength="300" required></textarea>
+                        <p class="form__maxlength">Максимальное количество символов: 300</p>
+                    </fieldset>
+                    <button type="submit" class="btn btn--main btn--modal" title="Отправить заявку">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

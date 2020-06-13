@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Roboto-Regular;
+    font-display: swap;
+    src: url('../fonts/Roboto-Regular.woff'),
+         url('../fonts/Roboto-Regular.woff2');
+}
+@font-face {
+    font-family: Roboto-Medium;
+    font-display: swap;
+    src: url('../fonts/Roboto-Medium.woff'),
+         url('../fonts/Roboto-Medium.woff2');
+}
+@font-face {
+    font-family: Roboto-Bold;
+    font-display: swap;
+    src: url('../fonts/Roboto-Bold.woff'),
+         url('../fonts/Roboto-Bold.woff2');
+}
+@font-face {
+    font-family: Roboto-Black;
+    font-display: swap;
+    src: url('../fonts/Roboto-Black.woff'),
+         url('../fonts/Roboto-Black.woff2');
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    background-color: #fbfbfb;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #8993ad;
+}
+.visually-hidden { 
+    position: absolute !important;
+    height: 1px; 
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap; /* added line */
+}
+.container {
+    margin: 0 auto;
+    padding: 0 40px;
+    max-width: 1170px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        padding: 0 40px;
+        max-width: 945px;
+    }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .container {
+        padding: 0 20px;
+        min-width: 280px;
+    }
+}
