@@ -1,8 +1,9 @@
-var mobileMenu = document.querySelector('.main-navigation__mobile');
-var menuClose = document.querySelector('.navigation-list__item--close');
-var modalButton = document.querySelectorAll('.btn');
-var modalClose = document.querySelector('.header__close');
-var modalWindow = document.querySelector('.modal');
+let mobileMenu = document.querySelector('.main-navigation__mobile');
+let menuClose = document.querySelector('.navigation-list__item--close');
+let modalButton = document.querySelectorAll('.btn');
+let modalClose = document.querySelector('.header__close');
+let modalWindow = document.querySelector('.modal');
+let modalOverlay = document.querySelector('.modal-overlay');
 
 
 function disableScrolling () {
@@ -24,12 +25,14 @@ menuClose.onclick = function () {
 [].forEach.call(modalButton, function(el){
     el.onclick = function(e){
         //modalWindow.style.display = 'flex';
+        modalOverlay.classList.add('modal__open');
         modalWindow.classList.add('modal__open');
         modalWindow.scrollIntoView();
         disableScrolling();
     }
 })
 modalClose.onclick = function () {
+    modalOverlay.classList.remove('modal__open');
     modalWindow.classList.remove('modal__open');
     //modalWindow.style.display = 'none';
     enableScrolling();
