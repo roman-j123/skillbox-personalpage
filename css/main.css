@@ -1059,7 +1059,8 @@
     }
     .main-navigation__navigation-list {
         width: 100vw;
-        height: 100vh;
+        max-height: 467px;
+        height: 100%;
         display: none;
         position: absolute;
         top: 0;
