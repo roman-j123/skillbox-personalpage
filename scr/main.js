@@ -60,6 +60,11 @@ var swiper = new Swiper('.swiper-container', {
             spaceBetween: 20,
             initialSlide: 1,
             slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true,
+            }
         },
         768: {
             slidesPerView: 2,
