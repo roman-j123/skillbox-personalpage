@@ -5,17 +5,6 @@ let modalClose = document.querySelector('.header__close');
 let modalWindow = document.querySelector('.modal');
 let modalOverlay = document.querySelector('.modal-overlay');
 
-
-function disableScrolling () {
-    var x = window.scrollX;
-    var y = window.scrollY;
-    window.onscroll = function() {
-        window.scrollTo(x,y);
-    }
-}
-function enableScrolling() {
-    window.onscroll = function() {};
-}
 mobileMenu.onclick = function() {
     document.querySelector('.main-navigation__navigation-list').classList.add('navigation--open');
 };
@@ -28,14 +17,12 @@ menuClose.onclick = function () {
         modalOverlay.classList.add('modal__open');
         modalWindow.classList.add('modal__open');
         modalWindow.scrollIntoView();
-        disableScrolling();
     }
 })
 modalClose.onclick = function () {
     modalOverlay.classList.remove('modal__open');
     modalWindow.classList.remove('modal__open');
     //modalWindow.style.display = 'none';
-    enableScrolling();
 }
 
 const anchors = document.querySelectorAll('a[href*="#"]')
